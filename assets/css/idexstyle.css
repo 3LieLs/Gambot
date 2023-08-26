@@ -1,7 +1,15 @@
+/*
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
 body {
     background: radial-gradient(#200752, black) fixed;
     background-attachment: fixed;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 0% 0% 0%;
 }
 
 #corpo {
@@ -10,28 +18,73 @@ body {
 }
 
 #introducao {
-    margin: 0% 15% 0% 5%;
+    margin: 15% 2% 0% 2%;
     background-color: #141259;
     padding: 2% 3% 2% 3%;
     margin-bottom: 15%;
     border: solid 3px;
-    font-size: 15pt;
+    font-size: 100%;
 }
 
 #fundamentacao {
-    margin: 0% 15% 0% 5%;
+    margin: 0% 2% 0% 2%;
     background-color: #141259;
     padding: 2% 3% 2% 3%;
     margin-bottom: 15%;
     border: solid 3px;
-    font-size: 15pt;
+    font-size: 100%;
 }
 
 #objetivos {
-    margin: 0% 15% 0% 5%;
+    margin: 0% 2% 0% 2%;
     background-color: #141259;
     padding: 2% 3% 2% 3%;
     margin-bottom: 15%;
     border: solid 3px;
-    font-size: 15pt;
+    font-size: 100%;
 }
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*COMPUTADOR------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR*/
+@media screen and (min-width: 768px) {
+    body {
+        background: radial-gradient(#200752, black) fixed;
+        background-attachment: fixed;
+        margin: 0% 10% 0% 10%;
+    }
+    
+    #corpo {
+        background-color: rgb(55, 55, 55);
+        padding-bottom: 1%;
+    }
+    
+    #introducao {
+        margin: 0% 15% 0% 5%;
+        background-color: #141259;
+        padding: 2% 3% 2% 3%;
+        margin-bottom: 15%;
+        border: solid 3px;
+        font-size: 15pt;
+    }
+    
+    #fundamentacao {
+        margin: 0% 15% 0% 5%;
+        background-color: #141259;
+        padding: 2% 3% 2% 3%;
+        margin-bottom: 15%;
+        border: solid 3px;
+        font-size: 15pt;
+    }
+    
+    #objetivos {
+        margin: 0% 15% 0% 5%;
+        background-color: #141259;
+        padding: 2% 3% 2% 3%;
+        margin-bottom: 15%;
+        border: solid 3px;
+        font-size: 15pt;
+    } 
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
