@@ -1,201 +1,62 @@
-/*CELULAR---------------CELULAR------------------CELULAR------------------CELULAR------------------CELULAR------------------CELULAR*/
-#legenda {
-    position: relative;
-    background-image: linear-gradient(180deg, #2e0879, rgb(55, 55, 55) 100%);
-    height: 300px;
-    margin: 0% 0% 0% 0%;
-    padding: 0%;
-}
-
-#logo>img {
-    position: relative;
-    width: 10%;
-    top: 15px;
-    left: 1%;
-}
-
-#logo>h1 {
-    position: absolute;
-    top: 1%;
-    left: 10%;
-    font-size: 225%;
-}
-
-#logo>h3 {
-    position: absolute;
-    top: 15%;
-    left: 12%;
-    font-size: 225%;
-}
-
-#redeSocial {
-    position: absolute;
-    top: 10%;
-    left: 80%;
-    width: 50%;
-}
-
-#discord,
-#youtube,
-#gmail,
-#instagram {
-    background-color: #2e0879;
-    width: 5%;
-    margin-right: 3%;
-    border: solid black 3px;
-    border-radius: 100%;
-}
-
-#atalho {
-    position: absolute;
-    width: 100%;
-    top: 60%;
-    right: 50%;
-    transform: translate(50%);
-}
-
-#introducaoAtalho {
-    text-align: center;
-    position: absolute;
-    background-color: #2e0879;
-    border: solid 3px black;
-    left: 15%;
-    width: 20%;
-    border-radius: 15%;
-    font-size: 150%;
-    padding: 0.1%;
-}
-
-#fundamentacaoAtalho {
-    text-align: center;
-    position: absolute;
-    background-color: #2e0879;
-    border: solid 3px black;
-    right: 50%;
-    transform: translate(50%);
-    width: 20%;
-    border-radius: 15%;
-    font-size: 150%;
-    padding: 0.1%;
-}
-
-#objetivosAtalho {
-    text-align: center;
-    position: absolute;
-    background-color: #2e0879;
-    border: solid 3px black;
-    right: 15%;
-    width: 20%;
-    border-radius: 15%;
-    font-size: 150%;
-    padding: 0.1%;
-}
-
-#atalho>a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#atalho>a:visited {
-    text-decoration: none;
-    color: black;
-}
-/*------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
 /*COMPUTADOR------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR*/
 @media screen and (min-width: 768px) {
     #legenda {
-        position: relative;
-        background-image: linear-gradient(180deg, #2e0879, rgb(55, 55, 55) 100%);
-        height: 300px;
+        background-image: linear-gradient(180deg,  black -100%,#2e0879);
         margin: 0% 0% 0% 0%;
         padding: 0%;
     }
 
     #logo>img {
-        position: relative;
         width: 10%;
-        top: 15px;
-        left: 1%;
     }
 
     #logo>h1 {
         position: absolute;
-        top: 1%;
-        left: 10%;
+        display: inline-block;
         font-size: 225%;
     }
 
     #logo>h3 {
         position: absolute;
-        top: 15%;
-        left: 12%;
+        top: 7%;
+        left: 15%;
+        display: inline-block;
         font-size: 225%;
-    }
-
-    #redeSocial {
-        position: absolute;
-        top: 10%;
-        right: 20%;
-        width: 20%;
-        height: 15%;
-    }
-
-    #discord,
-    #youtube,
-    #gmail,
-    #instagram {
-        background-color: #2e0879;
-        width: 15%;
-        margin-right: 5%;
-        border: solid black 3px;
-        border-radius: 100%;
     }
 
     #atalho {
         position: absolute;
+        display: inline-block;
+        direction: rtl;
+        background-color: #2e0879;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
         width: 100%;
-        top: 60%;
-        right: 50%;
-        transform: translate(50%);
+        height: 30px;
     }
 
     #introducaoAtalho {
         text-align: center;
-        position: absolute;
-        background-color: #2e0879;
-        border: solid 3px black;
-        left: 15%;
-        width: 20%;
-        border-radius: 15%;
         font-size: 150%;
+        background-image: linear-gradient(#2e0879 , #09001a 200%);
+        border: solid 3px black;
         padding: 0.1%;
     }
 
     #fundamentacaoAtalho {
         text-align: center;
-        position: absolute;
-        background-color: #2e0879;
-        border: solid 3px black;
-        right: 50%;
-        transform: translate(50%);
-        width: 20%;
-        border-radius: 15%;
         font-size: 150%;
+        background-image: linear-gradient(#2e0879 , #09001a 200%);
+        border: solid 3px black;
         padding: 0.1%;
     }
 
     #objetivosAtalho {
         text-align: center;
-        position: absolute;
-        background-color: #2e0879;
-        border: solid 3px black;
-        right: 15%;
-        width: 20%;
-        border-radius: 15%;
         font-size: 150%;
+        background-image: linear-gradient(#2e0879 , #09001a 200%);
+        border: solid 3px black;
+        margin-right: 3%;
         padding: 0.1%;
     }
 
@@ -213,19 +74,21 @@
         from {
             color: black;
             background-color: #2e0879;
+            border: solid 3px black;
         }
 
         to {
-            color: #2e0879;
+            color: gray;
             background-color: black;
-            border: solid 3px #2e0879;
+            border: solid 3px gray;
         }
     }
 
     @keyframes atalhoAnimacaoOut {
         from {
-            color: #2e0879;
+            color: gray;
             background-color: black;
+            border: solid 3px gray;
         }
 
         to {
@@ -254,6 +117,25 @@
             transform: scale(1.0)
         }
     }
+    #redeSocial {
+        width: 20%;
+        height: 15%;
+    }
+
+    #discord,
+    #youtube,
+    #gmail,
+    #instagram {
+        background-color: #2e0879;
+        width: 15%;
+        margin-right: 5%;
+        border: solid black 3px;
+        border-radius: 100%;
+    }
+
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*CELULAR---------------CELULAR------------------CELULAR------------------CELULAR------------------CELULAR------------------CELULAR*/
 /*------------------------------------------------------------------------------------------------------------------------------------*/

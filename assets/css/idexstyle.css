@@ -6,45 +6,6 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-body {
-    background: radial-gradient(#200752, black) fixed;
-    background-attachment: fixed;
-    margin: 0% 0% 0% 0%;
-}
-
-#corpo {
-    background-color: rgb(55, 55, 55);
-    padding-bottom: 1%;
-}
-
-#introducao {
-    margin: 15% 2% 0% 2%;
-    background-color: #141259;
-    padding: 2% 3% 2% 3%;
-    margin-bottom: 15%;
-    border: solid 3px;
-    font-size: 100%;
-}
-
-#fundamentacao {
-    margin: 0% 2% 0% 2%;
-    background-color: #141259;
-    padding: 2% 3% 2% 3%;
-    margin-bottom: 15%;
-    border: solid 3px;
-    font-size: 100%;
-}
-
-#objetivos {
-    margin: 0% 2% 0% 2%;
-    background-color: #141259;
-    padding: 2% 3% 2% 3%;
-    margin-bottom: 15%;
-    border: solid 3px;
-    font-size: 100%;
-}
-/*------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 
 /*COMPUTADOR------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR---------------COMPUTADOR*/
@@ -52,11 +13,13 @@ body {
     body {
         background: radial-gradient(#200752, black) fixed;
         background-attachment: fixed;
-        margin: 0% 10% 0% 10%;
+        margin: 0%;
     }
     
     #corpo {
-        background-color: rgb(55, 55, 55);
+        background: radial-gradient(180deg,#200752, rgb(55, 55, 55)) fixed;
+        margin: 0% 3% 0% 3%;
+        padding-top: 10%;
         padding-bottom: 1%;
     }
     
