@@ -19,22 +19,30 @@ Grandes telas: acima de 1200px
     #corpo {
         background: radial-gradient(180deg, #200752, rgb(55, 55, 55)) fixed;
         margin: 0% 3% 0% 3%;
-        padding-top: 40%;
+        padding-top: 20%;
         padding-bottom: 1%;
     }
 
-    .iniciarEscondido {
+    .iniciarEscondidoEsquerda {
         opacity: 0;
         transition: opacity 1s linear;
-
     }
-
-    .iniciarVisivel {
-        animation: conteudoAnimacao1 0.5s linear 0s forwards;
+    .iniciarEscondidoDireita {
+        opacity: 0;
+        transition: opacity 1s linear;
+    }
+    
+    .iniciarVisivelEsquerda {
+        animation: conteudoAnimacaoEsquerda 0.5s linear 0s forwards;
         opacity: 1;
     }
+    .iniciarVisivelDireita {
+        animation: conteudoAnimacaoDireita 0.5s linear 0s forwards;
+        opacity: 1;
+    }
+    
 
-    @keyframes conteudoAnimacao1 {
+    @keyframes conteudoAnimacaoEsquerda {
         from {
             left: -60%;
         }
@@ -43,10 +51,19 @@ Grandes telas: acima de 1200px
             left: 0%;
         }
     }
+    @keyframes conteudoAnimacaoDireita {
+        from {
+            left: 60%;
+        }
+
+        to {
+            left: 20%;
+        }
+    }
 
     #home {
         position: relative;
-        margin: 0% 15% 30% 5%;
+        margin: 0% 15% 20% 5%;
         background-color: #141259;
         padding: 2% 3% 2% 3%;
         border: solid 3px;
@@ -61,7 +78,7 @@ Grandes telas: acima de 1200px
         border: solid 3px;
         width: 50%;
         height: 500px;
-        margin: 0% 15% 30% 5%;
+        margin: 0% 5% 20% 15%;
         padding: 2% 3% 2% 3%;
     }
 
