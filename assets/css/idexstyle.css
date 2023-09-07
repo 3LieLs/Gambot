@@ -19,33 +19,51 @@ Grandes telas: acima de 1200px
     #corpo {
         background: radial-gradient(180deg,#200752, rgb(55, 55, 55)) fixed;
         margin: 0% 3% 0% 3%;
-        padding-top: 10%;
+        padding-top: 40%;
         padding-bottom: 1%;
+    }
+    .iniciarEscondido{
+        opacity: 0;
+        transition: opacity 1s linear;
+        
+    }
+    .iniciarVisivel{
+        animation: conteudoAnimacao1 1s linear 0s forwards;
+        opacity: 1;
+    }
+   
+    @keyframes conteudoAnimacao1 {
+        from{
+            left: -60%;
+        }
+        to{
+            left: 0%;
+        }
     }
     
     #introducao {
-        margin: 0% 15% 0% 5%;
+        position: relative;
+        margin: 0% 15% 30% 5%;
         background-color: #141259;
         padding: 2% 3% 2% 3%;
-        margin-bottom: 15%;
         border: solid 3px;
         font-size: 15pt;
     }
     
     #fundamentacao {
-        margin: 0% 15% 0% 5%;
+        position: relative;
+        margin: 0% 15% 30% 5%;
         background-color: #141259;
         padding: 2% 3% 2% 3%;
-        margin-bottom: 15%;
         border: solid 3px;
         font-size: 15pt;
     }
     
     #objetivos {
-        margin: 0% 15% 0% 5%;
+        position: relative;
+        margin: 0% 15% 15% 5%;
         background-color: #141259;
         padding: 2% 3% 2% 3%;
-        margin-bottom: 15%;
         border: solid 3px;
         font-size: 15pt;
     } 
