@@ -15,33 +15,36 @@ Grandes telas: acima de 1200px
         background-attachment: fixed;
         margin: 0%;
     }
-    
+
     #corpo {
-        background: radial-gradient(180deg,#200752, rgb(55, 55, 55)) fixed;
+        background: radial-gradient(180deg, #200752, rgb(55, 55, 55)) fixed;
         margin: 0% 3% 0% 3%;
         padding-top: 40%;
         padding-bottom: 1%;
     }
-    .iniciarEscondido{
+
+    .iniciarEscondido {
         opacity: 0;
         transition: opacity 1s linear;
-        
+
     }
-    .iniciarVisivel{
-        animation: conteudoAnimacao1 1s linear 0s forwards;
+
+    .iniciarVisivel {
+        animation: conteudoAnimacao1 0.5s linear 0s forwards;
         opacity: 1;
     }
-   
+
     @keyframes conteudoAnimacao1 {
-        from{
+        from {
             left: -60%;
         }
-        to{
+
+        to {
             left: 0%;
         }
     }
-    
-    #introducao {
+
+    #home {
         position: relative;
         margin: 0% 15% 30% 5%;
         background-color: #141259;
@@ -49,23 +52,30 @@ Grandes telas: acima de 1200px
         border: solid 3px;
         font-size: 15pt;
     }
-    
-    #fundamentacao {
+
+    #projetos {
         position: relative;
+        text-align: center;
+        font-size: 55pt;
+        background-color: #141259;
+        border: solid 3px;
+        width: 50%;
+        height: 500px;
         margin: 0% 15% 30% 5%;
-        background-color: #141259;
         padding: 2% 3% 2% 3%;
-        border: solid 3px;
-        font-size: 15pt;
     }
-    
-    #objetivos {
+
+    #sobre {
         position: relative;
-        margin: 0% 15% 15% 5%;
-        background-color: #141259;
-        padding: 2% 3% 2% 3%;
-        border: solid 3px;
-        font-size: 15pt;
-    } 
+    }
+
+    #sobre img {
+        position: relative;
+        border: solid 3px black;
+        border-radius: 10%;
+        margin: 0% 15% 0% 5%;
+        width: 50%;
+    }
 }
+
 /*------------------------------------------------------------------------------------------------------------------------------------*/

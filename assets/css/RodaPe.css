@@ -1,0 +1,23 @@
+#contatos{
+    background-image: linear-gradient(-180deg,  black -100%,#2e0879);
+    height: 70px;
+    margin: 30% 0% 0% 0%;
+}
+#contatos .redeSocial{
+    direction: rtl;
+}
+.redeSocial {
+    width: 20%;
+    height: 15%;
+}
+
+#discord,
+#youtube,
+#gmail,
+#instagram {
+    background-color: #2e0879;
+    width: 15%;
+    margin-right: 5%;
+    border: solid black 3px;
+    border-radius: 100%;
+}

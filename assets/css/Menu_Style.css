@@ -6,17 +6,17 @@
         padding: 0%;
     }
 
-    #logo>img {
+    #logo img {
         width: 10%;
     }
 
-    #logo>h1 {
+    #logo h1 {
         position: absolute;
         display: inline-block;
         font-size: 225%;
     }
 
-    #logo>h3 {
+    #logo h3 {
         position: absolute;
         top: 7%;
         left: 15%;
@@ -35,23 +35,34 @@
         height: 30px;
     }
 
-    #introducaoAtalho {
+    #homeAtalho {
         text-align: center;
         font-size: 150%;
         background-image: linear-gradient(#2e0879 , #09001a 200%);
         border: solid 3px black;
+        margin-right: 1%;
         padding: 0.1%;
     }
 
-    #fundamentacaoAtalho {
+    #projetosAtalho {
         text-align: center;
         font-size: 150%;
         background-image: linear-gradient(#2e0879 , #09001a 200%);
         border: solid 3px black;
+        margin-right: 1%;
         padding: 0.1%;
     }
 
-    #objetivosAtalho {
+    #sobreAtalho {
+        text-align: center;
+        font-size: 150%;
+        background-image: linear-gradient(#2e0879 , #09001a 200%);
+        border: solid 3px black;
+        margin-right: 1%;
+        padding: 0.1%;
+    }
+
+    #contatosAtalho {
         text-align: center;
         font-size: 150%;
         background-image: linear-gradient(#2e0879 , #09001a 200%);
@@ -116,21 +127,6 @@
         to {
             transform: scale(1.0)
         }
-    }
-    #redeSocial {
-        width: 20%;
-        height: 15%;
-    }
-
-    #discord,
-    #youtube,
-    #gmail,
-    #instagram {
-        background-color: #2e0879;
-        width: 15%;
-        margin-right: 5%;
-        border: solid black 3px;
-        border-radius: 100%;
     }
 
 }

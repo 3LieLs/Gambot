@@ -1,6 +1,6 @@
 const observer = new IntersectionObserver(entries => {
     Array.from(entries).forEach(entry => {
-        if (entry.intersectionRatio >= .5) {
+        if (entry.intersectionRatio >= .4) {
             entry.target.classList.add('iniciarVisivel')
         }
     })
