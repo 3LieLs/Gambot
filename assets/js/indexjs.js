@@ -25,3 +25,5 @@ Array.from(document.querySelectorAll('.iniciarEscondidoEsquerda')).forEach(eleme
 Array.from(document.querySelectorAll('.iniciarEscondidoDireita')).forEach(element => {
     observerDireita.observe(element)
 })
+
+
