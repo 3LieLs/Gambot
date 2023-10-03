@@ -1,2 +1,2 @@
 # Projeto-Gambot
-Site do Projeto Gambot (Clube de Robótica)
+Site do Projeto Gambot (Centro de Robótica e Progamação)
